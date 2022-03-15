@@ -1,0 +1,6 @@
+[submodule "posemir"]
+	path = posemir
+	url = git@github.com:otsob/posemir.git
+[submodule "musii-kit"]
+	path = musii-kit
+	url = git@github.com:otsob/musii-kit.git
