@@ -12,13 +12,13 @@
 POLY_TYPE=polyphonic
 
 # Set this to absolute path to JKU-PDD groundTruth directory
-JKU_PDD_PATH=/Users/otsobjorklund/datasets/music/jku-pdd/JKUPDD-Aug2013/groundTruth
+JKU_PDD_PATH=./jku-pdd/JKUPDD-Aug2013/groundTruth
 
 # Set this to the path for the posemir_cli executable 
-CLI_PATH=/Users/otsobjorklund/programming_projects/posemir/target/release/posemir_cli
+CLI_PATH=./posemir/target/release/posemir_cli
 
 # Set this to the path where you want the output to be saved
-OUTPUT_PATH=/Users/otsobjorklund/Desktop/posemir_cli_output
+OUTPUT_PATH=./output
 
 
 ##################################################################################
@@ -30,7 +30,7 @@ ARGS=${@:2}
 
 OUTPUT_DIR=${OUTPUT_PATH}/${ALGORITHM}_${POLY_TYPE}
 rm -r $OUTPUT_DIR
-mkdir $OUTPUT_DIR
+mkdir -p $OUTPUT_DIR
 
 # Bach
 INPUT_PATH=${JKU_PDD_PATH}/bachBWV889Fg/${POLY_TYPE}/csv/wtc2f20.csv
