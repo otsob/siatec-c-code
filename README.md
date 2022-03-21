@@ -30,4 +30,6 @@ Run `./run_benchmarks.sh` to run performance benchmarks. The results can be foun
 when execution is finished.
 
 ### Running memory profiling
-TODO
+Run `./run_memory_profiling.sh` to run heap usage profiling with `heaptrack`. The results can be found in `output/heaptrack_output`
+when execution is finished.
+
