@@ -9,7 +9,7 @@
 # Set these paths:
 
 # Set this to polyphonic or monophonic to choose whether to use monophonic or polyphonic JKU-PDD
-POLY_TYPE=polyphonic
+# POLY_TYPE=polyphonic
 
 # Set this to absolute path to JKU-PDD groundTruth directory
 JKU_PDD_PATH=./jku-pdd/JKUPDD-Aug2013/groundTruth
