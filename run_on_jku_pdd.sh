@@ -12,7 +12,7 @@
 # POLY_TYPE=polyphonic
 
 # Set this to absolute path to JKU-PDD groundTruth directory
-JKU_PDD_PATH=./jku-pdd/JKUPDD-Aug2013/groundTruth
+JKU_PDD_PATH=./jku-pdd/groundTruth
 
 # Set this to the path for the posemir_cli executable 
 CLI_PATH=./posemir/target/release/posemir_cli

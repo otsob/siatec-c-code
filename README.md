@@ -16,7 +16,7 @@ and install the `musii-kit` Jupyter kernel ([see README](./musii-kit/README.md))
 In order to build `posemir_cli`, run `cargo install --path posemir_cli` inside the `posemir` directory. 
 
 ### Running algorithms on JKU-PDD
-You need to download JKU-PDD and extract it to this repository.
+You need to download JKU-PDD and extract it to this repository as `jku-pdd`.
 To run a single algorithm on JKU-PDD, run: `./run_on_jku_pdd.sh <ALGORITHM>`.
 To run all algorithms included in the paper comparison on JKU-PDD, run `.run_all_on_jku_pdd.sh`.
 The results are saved to the `output` directory by default.
@@ -33,3 +33,5 @@ when execution is finished.
 Run `./run_memory_profiling.sh` to run heap usage profiling with `heaptrack`. The results can be found in `output/heaptrack_output`
 when execution is finished.
 
+### Troubleshooting
+Depending on the shell on your system, you may need to run the scripts with `source <script>` instead if you run into problems.
