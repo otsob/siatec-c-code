@@ -18,7 +18,7 @@ In order to build `posemir_cli`, run `cargo install --path posemir_cli` inside t
 ### Running algorithms on JKU-PDD
 You need to download JKU-PDD and extract it to this repository as `jku-pdd`.
 To run a single algorithm on JKU-PDD, run: `./run_on_jku_pdd.sh <ALGORITHM>`.
-To run all algorithms included in the paper comparison on JKU-PDD, run `.run_all_on_jku_pdd.sh`.
+To run all algorithms included in the paper comparison on JKU-PDD, run `./run_all_on_jku_pdd.sh`.
 The results are saved to the `output` directory by default.
 
 ### Running evaluation of the results on JKU-PDD
