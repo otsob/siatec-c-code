@@ -34,4 +34,5 @@ Run `./run_memory_profiling.sh` to run heap usage profiling with `heaptrack`. Th
 when execution is finished.
 
 ### Troubleshooting
-Depending on the shell on your system, you may need to run the scripts with `source <script>` instead if you run into problems.
+Depending on the shell on your system, you may need to run the scripts with `source <script>` or modify the first line of the scripts to
+use `bash` or `zsh` instead if you run into problems.
