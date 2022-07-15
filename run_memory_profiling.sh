@@ -31,7 +31,7 @@ measure_algorithms() {
 
       cd $OUTPUT
 
-      heaptrack ${CLI_PATH} -a ${algo} -p ${INPUT} -i ${INPUT} -o /dev/null --batch-size=1 --sub-diag=3 --max-ioi=50.0
+      heaptrack ${CLI_PATH} -a ${algo} -p ${INPUT} -i ${INPUT} -o /dev/null --batch-size=1 --sub-diag=1 --max-ioi=50.0
     done
   done
 }
