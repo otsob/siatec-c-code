@@ -1,3 +1,5 @@
 jku-pdd/
 output/
 notebooks/.ipynb_checkpoints/
+.virtual_documents/
+posemir_cli
