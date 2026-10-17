@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "posemir_discovery",
+    "posemir_cli",
+    "benchmark"
+]
