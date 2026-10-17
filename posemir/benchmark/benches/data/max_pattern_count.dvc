@@ -1,0 +1,5 @@
+outs:
+- md5: d4df515bf3ec6efaea11860fc5c108d7.dir
+  size: 12985193
+  nfiles: 100
+  path: max_pattern_count

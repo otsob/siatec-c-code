@@ -1,0 +1,5 @@
+outs:
+- md5: 3fdfdf0d1fee66b82447f893cda3ffd6.dir
+  size: 5954200
+  nfiles: 100
+  path: min_pattern_count

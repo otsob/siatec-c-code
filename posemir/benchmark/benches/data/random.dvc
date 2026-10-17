@@ -1,0 +1,5 @@
+outs:
+- md5: 8cd29863a6f7bad5dae1d710005585c9.dir
+  size: 9062348
+  nfiles: 100
+  path: random
