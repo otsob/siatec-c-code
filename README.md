@@ -4,7 +4,7 @@ The code for the paper _SIATEC-C: Computationally efficient repeated pattern dis
 
 ### Requirements
 - Rust development tools (compiler and cargo)
-- Python 3.8 and Poetry
+- Python 3.11 and Poetry
 - Jupyter Notebook
 - [Heaptrack](https://www.kdab.com/heaptrack-v1-3-0-release/) (works only on Linux)
 
@@ -14,6 +14,7 @@ After cloning this repository with `git clone --recurse-submodules`, build [pose
 and install the `musii-kit` Jupyter kernel ([see README](./musii-kit/README.md)).
 
 In order to build `posemir_cli`, run `cargo install --path posemir_cli` inside the `posemir` directory. 
+Copy the `posemir_cli` executable to the root of this repository from `posemir/target/release`.
 
 ### Running algorithms on JKU-PDD
 You need to download JKU-PDD and extract it to this repository as `jku-pdd`.

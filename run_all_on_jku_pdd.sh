@@ -10,6 +10,7 @@ export POLY_TYPE=polyphonic
 ./run_on_jku_pdd.sh COSIATEC-C --max-ioi=4.0
 ./run_on_jku_pdd.sh SIATEC-CCompress --max-ioi=4.0
 
+./run_on_jku_pdd.sh SIAR --sub-diag=1
 
 export POLY_TYPE=monophonic
 ./run_on_jku_pdd.sh SIATEC
@@ -20,3 +21,5 @@ export POLY_TYPE=monophonic
 
 ./run_on_jku_pdd.sh COSIATEC-C --max-ioi=4.0
 ./run_on_jku_pdd.sh SIATEC-CCompress --max-ioi=4.0
+
+./run_on_jku_pdd.sh SIAR --sub-diag=1
