@@ -1,6 +1,10 @@
 # siatec-c-code
 The code for the paper _SIATEC-C: Computationally efficient repeated pattern discovery in polyphonic music_.
 
+# Corrections to paper
+[Corrected version of Table 1](./supplementary_material/correction-to-table-1.pdf).  The corrected version was created by making the minimal changes to rerun the accuracy
+evaluation. This required copying code to this repository that was originally handled as submodules. The state of the
+code used for the original paper can be found at the git tag `original-publication`.
 
 ### Requirements
 - Rust development tools (compiler and cargo)
